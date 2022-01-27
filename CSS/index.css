@@ -1,0 +1,118 @@
+/* Styles for header */
+
+header{
+    background-color: azure;
+    font-size: medium;
+    height: 8em;
+}
+
+.nav-links{
+    text-align: left;
+    padding-top: 1.5em;
+    font-size: 30px;
+    
+}
+.nav-links a{
+    color: #70634e;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    
+}
+
+
+.nav-links a:hover{
+    border: 1px solid #113CFC;
+    border-radius: 10px;
+    color: rgb(243, 170, 74);
+    background-color: #113CFC;
+}
+
+/* ============================ */
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #1c523e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+
+
+
+
+/* Footer styles */
+footer{
+    bottom: 0;
+    background-color: #0D2240;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+footer li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer h3{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.footer-class{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.copyright-section{
+    text-align: center;
+    background-color: #121e2c;
+    padding-bottom: 10px;
+}
+
+footer hr{
+    width: 90%;
+}
+
+.footer-logo{
+    text-align: center;
+    margin-top: 25%;
+}
+
+
