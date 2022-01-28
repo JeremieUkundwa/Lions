@@ -1,5 +1,7 @@
 /* Styles for header */
-
+body{
+  background-color: #E5E5E5;
+}
 header {
   background-color: azure;
   font-size: medium;
