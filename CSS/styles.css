@@ -130,10 +130,10 @@ table {
 
 /* Styles for header */
 body {
-  background-color: #e5e5e5;
+  background-color: #F6F6F6;;
 }
 header {
-  background-color: azure;
+  background-color: #F6F6F6;
   font-size: medium;
   height: 8em;
 }
@@ -634,6 +634,7 @@ footer hr {
 
 /* ================================================================ */
 .banner {
+  background: url(../images/index-banner.jpeg);
   margin-top: 100px;
   height: 100vh;
   width: 99%;
@@ -672,11 +673,11 @@ p {
 .mot {
   background: white;
   border-radius: 20px;
-  width: 1550px;
+  width: 86%;
   margin-left: 15px;
   border-radius: 20px;
   padding: 20px;
-  height: 600PX;
+  height: 600px;
   padding: 0 100px;
   font-family: Poppins;
   font-style: normal;
@@ -711,12 +712,26 @@ p {
 .home-page h5 {
   font-size: 24px;
   padding-top: 20px;
-  padding-left: 195px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+
+  /* identical to box height */
+
+  color: #000000;
 }
 .home-page h6 {
-  font-size: 15px;
   margin-left: 0px;
   margin-top: -20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
 }
 .home-page #gvr {
   border-radius: 50%;
@@ -750,7 +765,20 @@ p {
   justify-content: center;
 }
 .home-page .title-font {
-  font-size: 20px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  color: #2250b2;
+
+  /* identical to box height */
+
+  color: #2250b2;
 }
 .home-page .container {
   margin-top: 100px;
@@ -760,13 +788,14 @@ p {
   gap: 100px 10px;
   grid-auto-flow: row;
   grid-template-areas:
-    ". ."
-    ". .";
+    ".."
+    "..";
   margin-left: 200px;
 }
 
 .home-page .image {
   text-align: center;
+  margin-bottom: 30px;
 }
 .home-page img {
   width: 150px;
@@ -774,11 +803,21 @@ p {
   margin-top: -80px;
 }
 .home-page .card {
-  width: 460px;
+  width: 500px;
   height: 400px;
   background: white;
   border-radius: 20px;
   padding: 25px;
+  margin-left: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.home-page .card p {
+  color: #8f8f8f;
+  margin-top: 40px;
 }
 /* nous decouvrir */
 .home-page .histoire {
@@ -787,8 +826,11 @@ p {
   border-radius: 20px;
   width: 98%;
   margin-left: 10px;
-  height: 350px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 0.4fr 4fr;
 }
+
 .home-page #emblem {
   float: left;
   margin-left: 20px;
@@ -799,28 +841,108 @@ p {
   margin-right: 35px;
   width: 85%;
   padding-top: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #8f8f8f;
 }
 .home-page .content-btn {
   color: blue;
   background: #ffcf06;
   border-radius: 10px;
   font-weight: bold;
-  width: 150px;
+  width: 200px;
   padding: 10px;
   margin-top: 25px;
 }
 /* =======================================end of nous decouvrir */
 /* membres */
 .home-page .membres {
-  margin: 60px 0;
   background: white;
   border-radius: 20px;
   width: 98%;
   margin-left: 10px;
-  height: 350px;
+  height: 800px;
 }
-/* ========================================end of membres */
+.home-page .membres .lions {
+  margin-bottom: -120px;
+  display: grid;
+  grid-template-columns: 0.4fr 4fr;
+}
+.home-page .membres .leo {
+  display: grid;
+  grid-template-columns: 0.4fr 4fr;
+}
+.home-page .content-membres {
+  float: right;
+  width: 85%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 
+  color: #8f8f8f;
+}
+
+/* ========================================end of membres */
+/* ================Start leader-section============ */
+.leaders-section .content-leaders {
+  margin: 60px 0;
+  margin-left: 209px;
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 10px;
+  height: 250px;
+  padding-left: 180px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.leaders-section .content-leaders p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #8f8f8f;
+}
+/* ================End leader-section-css========== */
+/* ================start Global Couses css========= */
+.causes-mondiales-section .causes-mondiales-content {
+  margin: 60px 0;
+  margin-bottom: 60px;
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 10px;
+  height: 300px;
+  padding-left: 180px;
+  padding-top: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.causes-mondiales-section .causes-mondiales-content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 40px;
+  color: #8f8f8f;
+}
+/*================END Global Couses css=========   */
 .home-page .district {
   margin-top: -60px;
   height: 400px;
@@ -882,8 +1004,6 @@ p {
   width: 250px;
 }
 
-
-
 .span_2_of_2 {
   width: 100%;
 }
@@ -902,3 +1022,77 @@ p {
     width: 100%;
   }
 }
+
+
+/* ========================Leades css=============== */
+
+.leader-page .leaders-photo{
+  background: linear-gradient(rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.658)), url(/company@one/img/Lions\ at\ installation\ ceremony.webp);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+}
+.leader-page h1{
+  color:white;
+  padding: 80px;
+}
+
+.leader-page .words{
+  width: 1200px;
+  margin: 50px 200px;
+}
+
+.leader-page h3{
+  color: #2250B2;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.leader-page .parent {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  }
+.leader-page .card{
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+}
+.leader-page .leader{
+  height: 300px;
+  border: 2px solid black;
+}
+.leader-page h4{
+  padding-left: 30px;
+}
+
+.leader-page .african-leaders{
+  background: white;
+  padding-bottom: 50px;
+}
+.leader-page .chefs{
+  background: #E5E5E5;
+}
+
+.leader-page .parent-1 {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin-left: 220px;
+  }
+  .leader-page .round-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+/* ==================Leadears css ends=========== */
