@@ -317,7 +317,6 @@ footer hr {
   font-size: 30px;
   line-height: 45px;
 
-
   color: #000000;
 }
 
@@ -414,7 +413,7 @@ footer hr {
   margin-top: 20px;
   margin-left: 31px;
   border: 1px solid #0d2240;
-  margin-bottom: 400px;
+  margin-bottom: 150px;
   clear: both;
 }
 .global-couses-inner-banner {
@@ -432,7 +431,6 @@ footer hr {
 
 .global-couses-inner-banner #banner-global-item1 {
   grid-column-start: 2;
-  
 }
 
 .global-couses-inner-banner #banner-global-item1 h3 {
@@ -451,4 +449,27 @@ footer hr {
   grid-column-start: 6;
   width: 682.5px;
   height: 400px;
+}
+
+.global-couses-content div img {
+  margin-top: 60px;
+  width: 195px;
+  height: 169px;
+  clear: both;
+}
+
+.global-couses-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.global-couses-content div a {
+  width: 500px;
+  height: 68px;
+  margin-top: 10px;
+  border: 1px solid #2250b2;;
+  background: #2250b2;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
 }
