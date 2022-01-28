@@ -99,7 +99,9 @@ footer ul {
   list-style: none;
 }
 footer h3 {
-  margin-left: 40px;
+  /* margin-left: 40px; */
+  margin-top: 100px;
+  padding: 40px 0;
   font-size: 30px;
 }
 .footer-class {
@@ -478,7 +480,7 @@ footer hr {
 /* ===== */
 .banner{
   margin-top: 100px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../images/banner.jpg);
   height: 100vh;
   width: 99%;
   background-attachment: fixed;
@@ -689,7 +691,7 @@ h2{
 .home-page .envoye-btn{
   background-color:#2250B2;
   border-radius: 10px;
-  width: 150px;
+  width: 200px;
   height: 40px;
   margin-left: 180px;
   padding: 8px 10px;
@@ -714,6 +716,122 @@ h2{
   width: 250px;
 
 }
+
+
+
+/*=======================================================================================leaders */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:whitesmoke ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leader-page .leaders-photo{
+    background: linear-gradient(rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.658)), url(/company@one/img/Lions\ at\ installation\ ceremony.webp);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+.leader-page h1{
+    color:white;
+    padding: 80px;
+}
+
+.leader-page .words{
+    width: 1200px;
+    margin: 50px 200px;
+}
+
+.leader-page h3{
+    color: #2250B2;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.leader-page .parent {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    }
+.leader-page .card{
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+.leader-page .leader{
+    height: 300px;
+    border: 2px solid black;
+}
+.leader-page h4{
+    padding-left: 30px;
+}
+
+.leader-page .african-leaders{
+    background: white;
+    padding-bottom: 50px;
+}
+.leader-page .chefs{
+    background: #E5E5E5;
+}
+
+.leader-page .parent-1 {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-left: 220px;
+    }
+    .leader-page .round-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+
+/* ==========================================================convention-district */
+.district-container{
+  background: white;
+  width: 98%;
+  height: 70vh;
+  margin:30px 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.district-container h3{
+  color: #2250B2;
+  text-align: center;
+}
+
+.district-image{
+  float: left;
+  margin-left: 50px;
+}
+.district-paragraph p{
+  margin-top: 30px;
+  margin-right: 500px;
+  width: 40%;
+  float: right;
+}
+
+/* ==========================================================end of convention-district */
+
 
  /* GRID OF TWO   ============================================================================= */
 
