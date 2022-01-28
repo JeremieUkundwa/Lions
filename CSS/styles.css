@@ -120,8 +120,7 @@ footer hr {
   text-align: center;
   margin-top: 25%;
 }
-.leo-logo{
-
+.leo-logo {
   margin-top: 18%;
 }
 /* =================mot-Du-Gouverneur=================== */
@@ -318,7 +317,6 @@ footer hr {
   font-size: 30px;
   line-height: 45px;
 
-  /* identical to box height */
 
   color: #000000;
 }
@@ -334,8 +332,9 @@ footer hr {
   color: #8f8f8f;
 }
 .devenir-membre-lions-content {
-  margin-left: 124px;
-  width: 80%;
+  margin-left: 84px;
+  margin-bottom: 30px;
+  width: 90%;
   background: #ffffff;
   border-radius: 12px;
   padding: 30px;
@@ -397,12 +396,59 @@ footer hr {
   line-height: 45px;
   padding: 30px;
 }
-.devenir-membre-leo-content h3{
+.devenir-membre-leo-content h3 {
   color: #000000;
   font-size: 30px;
-} 
+}
 
-.devenir-membre-leo-content p{
+.devenir-membre-leo-content p {
   color: #8f8f8f;
   font-size: 24px;
+}
+
+/* ==========================Global couses============ */
+.globalCouses-banner {
+  background: #0d2240;
+  width: 96%;
+  height: 453px;
+  margin-top: 20px;
+  margin-left: 31px;
+  border: 1px solid #0d2240;
+  margin-bottom: 400px;
+  clear: both;
+}
+.global-couses-inner-banner {
+  background: #ffcf06;
+  width: 86%;
+  height: 453px;
+  margin-top: 150px;
+  margin-left: 124px;
+  border: 1px solid #ffcf06;
+  clear: both;
+  margin-bottom: 40px;
+  display: inline-grid;
+  grid-column-gap: 45px;
+}
+
+.global-couses-inner-banner #banner-global-item1 {
+  grid-column-start: 2;
+  
+}
+
+.global-couses-inner-banner #banner-global-item1 h3 {
+  text-align: center;
+  margin-top: 201px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 40px;
+  width: 600px;
+  line-height: 60px;
+
+  color: #2250b2;
+}
+.global-couses-inner-banner #banner-global-item2 {
+  grid-column-start: 6;
+  width: 682.5px;
+  height: 400px;
 }
