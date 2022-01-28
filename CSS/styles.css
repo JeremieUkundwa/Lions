@@ -1,3 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 /* Styles for header */
 body {
   background-color: #e5e5e5;
@@ -90,6 +142,8 @@ footer {
   left: 0px;
   display: block;
   clear: both;
+  padding-top: 50px;
+
 }
 footer li a {
   color: #fff;
@@ -99,17 +153,25 @@ footer ul {
   list-style: none;
 }
 footer h3 {
-  margin-left: 40px;
+  margin-bottom: 30px;
   font-size: 30px;
 }
 .footer-class {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 50px;
 }
 .copyright-section {
   text-align: center;
   background-color: #121e2c;
   padding-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
 }
 
 footer hr {
@@ -461,24 +523,43 @@ footer hr {
 .global-couses-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 150px;
+  grid-column-gap: 40px;
+  margin-bottom: 30px;
 }
+.global-couses-content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 
+  color: #8f8f8f;
+}
 .global-couses-content div a {
   width: 500px;
   height: 68px;
-  margin-top: 10px;
-  border: 1px solid #2250b2;;
+  border: 1px solid #2250b2;
   background: #2250b2;
   text-align: center;
-  color: #fff;
   text-decoration: none;
+  padding: 10px 68px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+#global-couse {
+  background: #e5e5e5;
 }
 
-
-/* ===== */
-.banner{
+/* ================================================================ */
+.banner {
   margin-top: 100px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/banner.jpg);
   height: 100vh;
   width: 99%;
   background-attachment: fixed;
@@ -488,32 +569,32 @@ footer hr {
   margin-bottom: 50px;
   border-radius: 20px;
 }
-#banner-text{
+#banner-text {
   color: white;
   font-size: 40px;
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-#banner-texts{
+#banner-texts {
   color: whitesmoke;
   font-size: 15px;
   position: absolute;
   top: 80%;
   left: 50%;
-  transform: translate(-60%,-50%);
+  transform: translate(-60%, -50%);
 }
 /* =====================================end of banner */
-a{
+a {
   text-decoration: none;
 }
 
-p{
-  color: #8F8F8F;
+p {
+  color: #8f8f8f;
 }
 
-.mot{
+.mot {
   background: white;
   border-radius: 20px;
   width: 1550px;
@@ -523,44 +604,44 @@ p{
   height: 500px;
   padding: 0 100px;
 }
-h2{
+h2 {
   color: black;
   font-size: 40px;
   padding-left: 20px;
 }
-.home-page h3{
+.home-page h3 {
   color: blue;
   font-size: 18px;
   text-align: center;
   padding-top: 20px;
 }
-.home-page h4{
+.home-page h4 {
   font-size: 30px;
   text-align: center;
 }
-.home-page h5{
+.home-page h5 {
   font-size: 24px;
   padding-top: 20px;
-  padding-left:  195px;
+  padding-left: 195px;
 }
-.home-page h6{
+.home-page h6 {
   font-size: 15px;
   margin-left: 0px;
   margin-top: -20px;
 }
-.home-page #gvr{
+.home-page #gvr {
   border-radius: 50%;
   width: 470px;
   height: 470px;
   float: right;
 }
 
-.home-page blockquote{
+.home-page blockquote {
   margin-bottom: 30px;
 }
-.home-page .button{
+.home-page .button {
   color: blue;
-  background:#FFCF06;
+  background: #ffcf06;
   border-radius: 10px;
   font-weight: bold;
   margin: 100px;
@@ -568,21 +649,21 @@ h2{
   padding-right: 30px;
 }
 .home-page .btn:hover,
-.button-btn:hover{
+.button-btn:hover {
   /* background: #2250B2; */
   color: #817d6c;
   transition: ease-in-out 0.3s;
 }
 
-.home-page .title{
+.home-page .title {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
-.home-page .title-font{
+.home-page .title-font {
   font-size: 20px;
 }
-.home-page .container {  
+.home-page .container {
   margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -592,47 +673,47 @@ h2{
   grid-template-areas:
     ". ."
     ". .";
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
-.home-page .image{
-    text-align: center;
+.home-page .image {
+  text-align: center;
 }
-.home-page img{
-    width: 150px;
-    height: 150px;
-    margin-top: -80px;
+.home-page img {
+  width: 150px;
+  height: 150px;
+  margin-top: -80px;
 }
-.home-page .card{
-    width: 460px;
-    height: 400px;
-    background: white;
-    border-radius: 20px;
-    padding: 25px;
+.home-page .card {
+  width: 460px;
+  height: 400px;
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
 }
 /* nous decouvrir */
-.home-page .histoire{
-    margin: 60px 0;
-    background: white;
-    border-radius: 20px;
-    width: 98%;
-    margin-left: 10px;
-    height: 350px;
+.home-page .histoire {
+  margin: 60px 0;
+  background: white;
+  border-radius: 20px;
+  width: 98%;
+  margin-left: 10px;
+  height: 350px;
 }
-.home-page #emblem{
-    float: left;
-    margin-left: 20px;
-    margin-top: 45px;
+.home-page #emblem {
+  float: left;
+  margin-left: 20px;
+  margin-top: 45px;
 }
-.home-page .content{
-    float: right;
-    margin-right: 35px;
-    width: 85%;
-    padding-top: 40px;
+.home-page .content {
+  float: right;
+  margin-right: 35px;
+  width: 85%;
+  padding-top: 40px;
 }
-.home-page .content-btn{
+.home-page .content-btn {
   color: blue;
-  background:#FFCF06;
+  background: #ffcf06;
   border-radius: 10px;
   font-weight: bold;
   width: 150px;
@@ -641,42 +722,41 @@ h2{
 }
 /* =======================================end of nous decouvrir */
 /* membres */
-.home-page .membres{
+.home-page .membres {
   margin: 60px 0;
-    background: white;
-    border-radius: 20px;
-    width: 98%;
-    margin-left: 10px;
-    height: 350px;
+  background: white;
+  border-radius: 20px;
+  width: 98%;
+  margin-left: 10px;
+  height: 350px;
 }
 /* ========================================end of membres */
 
-.home-page .district{
+.home-page .district {
   margin-top: -60px;
   height: 400px;
   width: 100%;
-  background: #2250B2;
+  background: #2250b2;
   color: white;
 }
 
-
-.home-page #contact{
+.home-page #contact {
   padding-right: 190px;
   padding-bottom: 0px;
 }
-.home-page input{
+.home-page input {
   width: 500px;
   height: 50px;
   margin: 10px;
   border: none;
-  color: #8F8F8F;
+  color: #8f8f8f;
   border-radius: 20px;
   padding-left: 20px;
 }
 
-.home-page textarea{
+.home-page textarea {
   border-radius: 15px;
-  color: #8F8F8F;
+  color: #8f8f8f;
   width: 500px;
   height: 200px;
   border: none;
@@ -686,53 +766,50 @@ h2{
   font-size: 15px;
 }
 
-.home-page .envoye-btn{
-  background-color:#2250B2;
+.home-page .envoye-btn {
+  background-color: #2250b2;
   border-radius: 10px;
   width: 150px;
   height: 40px;
   margin-left: 180px;
   padding: 8px 10px;
 }
-.home-page #envoye{
-  color: #FFCF06;
+.home-page #envoye {
+  color: #ffcf06;
   padding: 20px 30px;
   text-decoration: none;
   font-weight: bold;
-  
 }
-.home-page #email-photo{
+.home-page #email-photo {
   padding-top: 50px;
   width: 600px;
   height: 600px;
 }
 
-.home-page #fname{
+.home-page #fname {
   width: 230px;
 }
-.home-page #lname{
+.home-page #lname {
   width: 250px;
-
 }
 
- /* GRID OF TWO   ============================================================================= */
-
+/* GRID OF TWO   ============================================================================= */
 
 .span_2_of_2 {
-	width: 100%;
+  width: 100%;
 }
 
 .span_1_of_2 {
-	width: 49.2%;
+  width: 49.2%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2 {
-		width: 100%; 
-	}
-	.span_1_of_2 {
-		width: 100%; 
-	}
+  .span_2_of_2 {
+    width: 100%;
+  }
+  .span_1_of_2 {
+    width: 100%;
+  }
 }
