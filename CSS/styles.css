@@ -569,8 +569,8 @@ h2{
 }
 .home-page .btn:hover,
 .button-btn:hover{
-  background: #2250B2;
-  color: #FFCF06;
+  /* background: #2250B2; */
+  color: #817d6c;
   transition: ease-in-out 0.3s;
 }
 
